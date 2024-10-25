@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Testing Check Box View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="checkBoxId" id="Y6W-OH-hqX" customClass="TestingCheckBoxViewController" customModule="teststory" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1N0-cQ-hnC" userLabel="card 1">
+                                <rect key="frame" x="20" y="78" width="374" height="110.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gmm-bb-Ojm">
+                                        <rect key="frame" x="5" y="5" width="364" height="100.5"/>
+                                        <string key="text">Saya bersedia menerima promosi/info/penawaran product/layanan dari Group Usama BNI dan/atau Mitra usage melalui sarana komunikasi probadi saya (antara lain telepom ginggam/SMS/email/aplikasi chat lainya) dan mengizinkan BNI memberikan Data Pribadi saya untuk kepentingan dimaksud.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemCyanColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="gmm-bb-Ojm" secondAttribute="bottom" constant="5" id="0CR-Jw-fU4"/>
+                                    <constraint firstItem="gmm-bb-Ojm" firstAttribute="leading" secondItem="1N0-cQ-hnC" secondAttribute="leading" constant="5" id="D73-fa-Kfj"/>
+                                    <constraint firstAttribute="trailing" secondItem="gmm-bb-Ojm" secondAttribute="trailing" constant="5" id="H19-hr-sVq"/>
+                                    <constraint firstItem="gmm-bb-Ojm" firstAttribute="top" secondItem="1N0-cQ-hnC" secondAttribute="top" constant="5" id="qin-zC-0B3"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uBe-jD-Ddb" userLabel="card 2">
+                                <rect key="frame" x="20" y="208.5" width="374" height="183.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hcI-mR-ukc">
+                                        <rect key="frame" x="8" y="8" width="358" height="167.5"/>
+                                        <string key="text">Saya bersedia menerima promosi/info/penawaranproduk/layanan BNI lainya melalui sarana komunikasi pribadi saya (antara lain telepon genggam/SMS/email/dan aplikasi chat lainya).Saya bersedia menerima promosi/info/penawaran product/layanan dari Group Usama BNI dan/atau Mitra usage melalui sarana komunikasi probadi saya (antara lain telepom ginggam/SMS/email/aplikasi chat lainya) dan mengizinkan BNI memberikan Data Pribadi saya untuk kepentingan dimaksud.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <constraints>
+                                    <constraint firstItem="hcI-mR-ukc" firstAttribute="leading" secondItem="uBe-jD-Ddb" secondAttribute="leading" constant="8" id="Dj8-gn-L2P"/>
+                                    <constraint firstAttribute="bottom" secondItem="hcI-mR-ukc" secondAttribute="bottom" constant="8" id="Lbf-AU-ONy"/>
+                                    <constraint firstItem="hcI-mR-ukc" firstAttribute="top" secondItem="uBe-jD-Ddb" secondAttribute="top" constant="8" id="LvL-h5-tgJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="hcI-mR-ukc" secondAttribute="trailing" constant="8" id="pFY-D7-odM"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jDa-t4-oIE" userLabel="card 3">
+                                <rect key="frame" x="20" y="412" width="374" height="177.5"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="RvW-EY-8rB" userLabel="Stack View H1">
+                                        <rect key="frame" x="8" y="8" width="358" height="50.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MEt-mm-3CJ">
+                                                <rect key="frame" x="0.0" y="0.0" width="37" height="50.5"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="uncheckicon"/>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Saya sudah baca dan paham semua info di Pembereritahuan Privasi setta sepenuhnya paham &amp; setuju atas Syarat &amp; Ketentuan" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fRy-wz-xWF">
+                                                <rect key="frame" x="42" y="0.0" width="316" height="50.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="7om-3X-Uy2" userLabel="Stack View H2">
+                                        <rect key="frame" x="8" y="63.5" width="358" height="50.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qp3-Fe-9re">
+                                                <rect key="frame" x="0.0" y="0.0" width="37" height="50.5"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="uncheckicon"/>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Saya sudah baca dan paham semua info di Pembereritahuan Privasi setta sepenuhnya paham &amp; setuju atas Syarat &amp; Ketentuan" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yIn-fZ-Ndl">
+                                                <rect key="frame" x="42" y="0.0" width="316" height="50.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Bsu-5x-EMA" userLabel="Stack View H3">
+                                        <rect key="frame" x="8" y="119" width="358" height="50.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ma0-hg-NW4">
+                                                <rect key="frame" x="0.0" y="0.0" width="37" height="50.5"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="uncheckicon"/>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Saya sudah baca dan paham semua info di Pembereritahuan Privasi setta sepenuhnya paham &amp; setuju atas Syarat &amp; Ketentuan" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vIU-D6-lGQ">
+                                                <rect key="frame" x="42" y="0.0" width="316" height="50.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                                <constraints>
+                                    <constraint firstItem="Bsu-5x-EMA" firstAttribute="top" secondItem="7om-3X-Uy2" secondAttribute="bottom" constant="5" id="19F-sH-AxV"/>
+                                    <constraint firstItem="RvW-EY-8rB" firstAttribute="leading" secondItem="jDa-t4-oIE" secondAttribute="leading" constant="8" id="8bJ-Nv-LsZ"/>
+                                    <constraint firstItem="7om-3X-Uy2" firstAttribute="leading" secondItem="jDa-t4-oIE" secondAttribute="leading" constant="8" id="E0H-Zy-CTa"/>
+                                    <constraint firstItem="RvW-EY-8rB" firstAttribute="top" secondItem="jDa-t4-oIE" secondAttribute="top" constant="8" id="Gq3-Vd-gHm"/>
+                                    <constraint firstItem="Bsu-5x-EMA" firstAttribute="leading" secondItem="jDa-t4-oIE" secondAttribute="leading" constant="8" id="Maz-kN-UUY"/>
+                                    <constraint firstItem="7om-3X-Uy2" firstAttribute="top" secondItem="RvW-EY-8rB" secondAttribute="bottom" constant="5" id="ORL-se-qIG"/>
+                                    <constraint firstAttribute="bottom" secondItem="Bsu-5x-EMA" secondAttribute="bottom" constant="8" id="Oxt-9A-pct"/>
+                                    <constraint firstAttribute="trailing" secondItem="RvW-EY-8rB" secondAttribute="trailing" constant="8" id="kkE-r1-NGT"/>
+                                    <constraint firstAttribute="trailing" secondItem="Bsu-5x-EMA" secondAttribute="trailing" constant="8" id="rZM-ud-UMc"/>
+                                    <constraint firstAttribute="trailing" secondItem="7om-3X-Uy2" secondAttribute="trailing" constant="8" id="sEI-Vd-TAE"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="1N0-cQ-hnC" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="96M-fI-fgd"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="1N0-cQ-hnC" secondAttribute="trailing" constant="20" id="9if-iD-aot"/>
+                            <constraint firstItem="uBe-jD-Ddb" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="HaS-85-uKa"/>
+                            <constraint firstItem="jDa-t4-oIE" firstAttribute="top" secondItem="uBe-jD-Ddb" secondAttribute="bottom" constant="20" id="Xdw-q8-hjC"/>
+                            <constraint firstItem="jDa-t4-oIE" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="bWc-Mt-ssa"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="uBe-jD-Ddb" secondAttribute="trailing" constant="20" id="m13-PJ-OqS"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="jDa-t4-oIE" secondAttribute="trailing" constant="20" id="p0Z-2n-TsU"/>
+                            <constraint firstItem="1N0-cQ-hnC" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="30" id="p7N-Br-a3P"/>
+                            <constraint firstItem="uBe-jD-Ddb" firstAttribute="top" secondItem="1N0-cQ-hnC" secondAttribute="bottom" constant="20" id="pD1-5g-Vjg"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-109.59999999999999" y="3.6945812807881775"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="uncheckicon" width="18" height="18"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemCyanColor">
+            <color red="0.1960784314" green="0.67843137249999996" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
